@@ -6,9 +6,11 @@ A sleek and interactive weather app built with React and TypeScript, allowing us
 - 🌍 **City Autocomplete** – Get search suggestions as you type.
 - 🌡️ **Real-Time Weather Data** – View temperature, wind speed, humidity, and more.
 - 🔄 **Celsius/Fahrenheit Toggle** – Switch between temperature units easily.
-- 📜 **Search History** – Stores recent searches for quick access.
+- 📝 **Search History** – Stores recent searches for quick access.
 - ⚡ **Optimized & Responsive UI** – Built with Tailwind CSS for a smooth experience.
 
+## Preview
+![Weather Dashboard Preview]()
 
 ## Installation 🛠️
 
