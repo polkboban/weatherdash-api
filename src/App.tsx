@@ -143,7 +143,7 @@ function App() {
       <div className="max-w-4xl mx-auto">
         <div className="backdrop-blur-xl bg-white/10 rounded-3xl shadow-2xl overflow-hidden">
           <div className="p-6 md:p-8">
-            {/* Header */}
+            
             <div className="flex items-center justify-between mb-8">
               <h1 className="text-3xl md:text-4xl font-bold text-white flex items-center">
                 <Sun className="mr-3 text-grey-100" /> Weather Dashboard
@@ -157,7 +157,7 @@ function App() {
               </button>
             </div>
 
-            {/* Search Section */}
+            
             <div className="mb-8">
               <form onSubmit={handleSubmit} className="relative">
                 <div className="relative">
@@ -183,7 +183,7 @@ function App() {
                   </button>
                 </div>
 
-                {/* Suggestions dropdown */}
+                
                 {showSuggestions && suggestions.length > 0 && (
                   <div
                     ref={suggestionsRef}
@@ -216,7 +216,7 @@ function App() {
               )}
             </div>
 
-            {/* Weather Display */}
+            
             {weather && (
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white/20 rounded-2xl p-6 backdrop-blur-lg">
@@ -263,7 +263,7 @@ function App() {
               </div>
             )}
 
-            {/* Search History */}
+            
             {searchHistory.length > 0 && (
               <div className="bg-white/20 rounded-2xl p-6 backdrop-blur-lg">
                 <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
