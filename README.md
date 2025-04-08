@@ -9,10 +9,7 @@ A sleek and interactive weather app built with React and TypeScript, allowing us
 -  **Search History** – Stores recent searches for quick access.
 -  **Optimized & Responsive UI** – Built with Tailwind CSS for a smooth experience.
 
-## Preview
-![Weather Dashboard Preview]()
-
-## Installation 🛠️
+## Installation 🛠
 
 1. Clone the repository:
    ```sh
